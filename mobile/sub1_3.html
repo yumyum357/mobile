@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>STX-찾아오는길</title>
+    
+    <link rel="apple-touch-icon" href="app_icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="apple-touch-startup-image" href="startup.png"/>
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link href="css/common.css" rel="stylesheet" >
+    <link href="css/sub_layout.css" rel="stylesheet" >
+    <link href="css/sub1_3.css" rel="stylesheet">
+    
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3.3&sensor=true"></script><script src="js/map.js"></script>
+
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+    
+</head>
+
+<body>
+<!--   head include-->
+       <?php include "header.html" ?>
+       
+        <div class="main">
+            <img src="images/sub1/main_640.jpg" alt="">
+            <div class="mainP">
+               <h3>STX소개</h3>
+            </div>
+        </div>
+        <div class="container">
+            <article class="content">
+                <div class="titleArea">
+                  
+                    <div class="subTitle">
+                        <h2>STX <span>CONTECT</span></h2>
+                        <img src="images/sub1/bar_640.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="contentArea">
+                       <!-- 내용 콘텐츠 삽입 부분 -->
+                       <div class="m_cont">
+                    <!--     <img src="images/m1_03_imgx2.png.png" width="100%" alt="망원역 1번출구 50m" />-->
+                       <div id="map_canvas" style="width:100%;height:350px;"></div>
+
+
+                       </div> 
+
+                       <table>
+                       <caption class="hidden">주소와연락처</caption>
+                       <tbody>
+                            <tr>
+                             <th>ADDRESS</th>
+                             <td>645 - 703 <br>경상남도 창원시 진해구 명제로 60</td>
+                            </tr>
+                            <tr>
+                             <th>TEL</th>
+                             <td>
+                              <span class="tab_text"><a href="tel:01028498911">055&#41; 548 - 1122</a></span>
+                             </td>
+                            </tr>
+                            <tr>
+                             <th>FAX</th>
+                             <td>
+                              <span class="tab_text">055&#41; 546 - 7928</span>
+                              
+                             </td>
+                            </tr>
+                        </tbody>
+                       </table>
+
+                </div>
+            </article>
+        </div>
+        
+        <?php include "footer.html" ?>
+    
+</body>
+</html>

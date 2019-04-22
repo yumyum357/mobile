@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900');
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+
+
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input,button {border-radius:2px; }
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse}
+.hidden{position: absolute;left: -1000%;top: 0;display: block;width: 1px;height: 1px;overflow: hidden;color: #fff}
+
+
+
+
+#wrap{ width:100%; height:100%; overflow:hidden;background: #f0f0f0;position: relative}
+#wrap .darkbox{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: absolute;top: 0;right: 0;z-index: 50;display: none}
+
+
+/*공통header영역*/
+#headerArea{height: 61px;width: 100%; background: #fff;z-index: 100px}
+
+#headerArea h1 a{background: url(../images/logo_320.png)left center no-repeat;text-indent: -999px;overflow: hidden;width: 86px;height: 34px;position: relative;left: 50%;top: 15px;margin-left:-43px;display: block}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #headerArea h1 a{background: url(../images/logo_640.png)left center no-repeat;background-size: 86px 34px;}}
+
+#headerArea .navIcon{position: absolute;right: 10px;top:10px;display: block;padding: 8px 11px}
+
+#headerArea #gnb{width: 70%;height: 100%;background: #fff;position: absolute;top: 0;right: -100%;z-index: 60;}
+
+#gnb .navLogo{background: url(../images/navLogo_640.png) center 75px no-repeat #0f69b5;background-size: 91px 36px;height: 135px;text-indent: -999px;overflow: hidden;color: #0f69b5;}
+
+#gnb .sideNav{text-align: center;margin-top: 30px}
+#gnb .sideNav .depth1{margin-top:}
+#gnb .sideNav li.depth1:nth-child(2){padding-right: 26px}
+#gnb .sideNav .depth1 h3{}
+
+#gnb .sideNav .depth1 h3 a{font-family: 'Gothic A1';font-size: 16px;display: block;padding: 20px 0;}
+#gnb .sideNav .nDepth h3 .off:after{background: url(../images/navArrow_640.png)left center no-repeat;background-size:6px 4px;width: 6px;height: 4px;display: inline-block;content: '';margin-left:  20px;position: relative;top: -3px}
+#gnb .sideNav .nDepth h3 .on:after{background: url(../images/navArrowOn_640.png)left center no-repeat;background-size:6px 4px;width: 6px;height: 4px;display: inline-block;content: '';margin-left:  20px;position: relative;top: -3px}
+
+#gnb .sideNav .depth1 ul{display: none;}
+#gnb .sideNav .depth1 ul li a{font-size: 12px;font-family: 'Gothic A1';color: #666;display: block;padding: 7px 0; text-align: left}
+#gnb .sideNav .depth1 ul li a span{width: 100px; margin: 0 auto; display: block; padding-left: 20px}
+
+
+#gnb .close {;position: absolute;left: 0px;top:0px;display: block}
+#gnb .close img{width: 27px;height: 27px;display: inline-block;padding: 20px 20px}
+
+
+
+
+
+
+/*공통footer영역*/co
+
+
+#footerArea .btn{background: #3b3b3b;overflow: hidden}
+#footerArea .btn li{float: left;width: 50%;}
+#footerArea .btn li a{text-align: center;display: block;width: 100%;font-size: 12px;color: #666; line-height: 3em}
+#footerArea .btn li a.btn1{width: calc(100% - 1px); border-right: 1px solid #555}
+
+#footerArea .footCon{background: #313131;color: #999;font-size: 11px;text-align: center;line-height: 1.5em;padding: 50px 0 20px 0;position: relative}
+#footerArea .footCon:after{background: url(../images/footLogo_640.png)left center no-repeat;background-size: 63px 24px;content: '';display: block;width: 63px;height: 24px;position: absolute;left: 50%;top: 15px;margin-left: -31px}
+#footerArea .footCon a{color: #999;border-right: 1px solid #666;padding-right: 5px;margin-right: 7px}
+#footerArea .footCon .fax{display: inline;}
+
+
+
+
+

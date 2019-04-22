@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <title>STX-채용공고</title>
+    
+    <link rel="apple-touch-icon" href="app_icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="apple-touch-startup-image" href="startup.png"/>
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link href="css/common.css" rel="stylesheet" >
+    <link href="css/sub_layout.css" rel="stylesheet" >
+    <link href="css/sub4_2.css" rel="stylesheet">
+    
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/data_json.js"></script>
+
+
+
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+    
+</head>
+
+<body>
+<!--   head include-->
+       <?php include "header.html" ?>
+       
+        <div class="main">
+            <img src="images/sub4/main_640.jpg" alt="">
+            <div class="mainP">
+               <h3>STX채용정보</h3>
+            </div>
+        </div>
+        <div class="container">
+            <article class="content">
+                <div class="titleArea">
+                  
+                    <div class="subTitle">
+                        <h2>RECRUITMENT <span>ANNOUNCEMENT</span></h2>
+                        <img src="images/sub4/bar_640.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="contentArea">
+                   <img src="images/sub4/img.jpg" alt="">
+                   <div id="jsonCon"></div>
+                      
+                      
+                   
+                   
+                </div>
+            </article>
+        </div>
+        
+        <?php include "footer.html" ?>
+    
+</body>
+</html>

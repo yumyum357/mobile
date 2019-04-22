@@ -1,0 +1,24 @@
+/*main공통*/
+#wrap{background: #fff}
+.main{position: relative}
+.main img{width: 100%}
+.main .mainP{position: absolute;left: 50%;top: -1px;margin-left:-87px}
+.main .mainP h3{font-family: 'Gothic A1';color: #fff;font-size: 30px;font-weight: bold;margin-bottom: 5px}
+
+.titleArea .subTitle{text-align: center;margin: 30px 0 30px 0}
+.titleArea .subTitle h2{font-family: 'lato';font-size: 20px;font-weight: bold;margin-bottom:15px}
+.titleArea .subTitle h2 span{color: #fd9d1e}
+.titleArea .subTitle img{width: 25px;height: 2px}
+
+/*content 영역*/
+.contentArea{position: relative;}
+.contentArea h3{font-size: 16px;font-family: 'Gothic A1';background:#0f69b5;border-radius: 15px;display: inline-block;color: #fff ;padding:1px 10px;position: absolute;left: 50%;top: -25px;margin-left: -65px}
+.contentArea h3 span{color: #fd9d1e;font-weight: bold}
+
+.contentArea dl{padding:2px 0 80px 0; position: relative;left: 50%;margin-left: -155px}
+.contentArea dl dt:before{;width:91px;height: 91px;content: '';display: block;position: absolute;left: 0;top: 0}
+.contentArea dl dt.icon1:before{background: url(../images/sub4/icon1.png)left center no-repeat;background-size: 91px 91px;}
+.contentArea dl dt.icon2:before{background: url(../images/sub4/icon2.png)left center no-repeat;background-size: 91px 91px;}
+.contentArea dl dt.icon3:before{background: url(../images/sub4/icon3.png)left center no-repeat;background-size: 91px 91px;}
+.contentArea dl dt{font-size: 18px;font-family: 'Gothic A1';margin:30px 0 10px 0;position: relative;padding-left: 110px}
+.contentArea dl dd{line-height: 2em;margin-left: 110px}

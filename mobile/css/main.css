@@ -1,0 +1,48 @@
+/* CSS Document */
+
+.main{margin-bottom: 20px;}
+
+#content  .about{background: #fff;margin-bottom: 10px}
+#content  .about h3{text-align: center;font-family: 'Gothic A1';padding: 20px 0 15px 0;font-size: 16px}
+#content  .about ul{overflow: hidden;margin: 0 10px}
+#content  .about ul li{float: left;width: 33.33%;text-align: center;}
+#content  .about ul li img{width: 100%}
+#content  .about ul li a{;display: block; margin: 5px}
+#content  .about ul li span{font-family: 'Gothic A1';margin: 10px 0 18px 0;display: block}
+
+/*
+#content .newsWrap{background: #0f69b5;padding: 10px;}
+#content .news{position: relative;background: #fff;border-radius: 10px;}
+#content .news h3{position: absolute;left: 30px;top: 7px;font-family: 'Gothic A1';font-size: 18px;font-weight: bold;color: #0f69b5}
+#content .news .slide_box{height: 13px;padding: 10px 20px}
+#content .news .slide_box .slide{position: relative}
+#content .news .slide_box ul{position: absolute;left:100px;top: -7px;overflow: hidden;width: 80%}
+#content .news .slide_box li{display: inline-block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 90%;font-size: 13px}
+*/
+
+#content .newsWrap{height:50px; background:#0f69b5; margin:20px 0}
+#content .newsWrap .news{height:30px; margin:0 15px;line-height:1em; border-radius:7px; position:relative; top:10px; background:#fff;}
+#content .newsWrap .news h3{font-size:16px; font-weight:bold; ; padding:8px 6%;font-family: 'Gothic A1';color: #0f69b5}
+#content .newsWrap .news .slide_box{width:67%; height:13px; overflow:hidden; position:absolute; left:30%; top:7px;}
+#content .newsWrap .news .slide_box .slide{position:absolute;}
+#content .newsWrap .news .slide ul{font-size:12px;}
+#content .newsWrap .news .slide ul li{height:13px; overflow:hidden; text-overflow:clip; margin-bottom:5px;color: #666}
+
+
+#content .bus{background: #fff;overflow: hidden;margin-bottom: 20px; padding: 20px 0}
+#content .bus h3{font-family: 'Gothic A1';font-size: 16px;text-align: center;width:70px;margin: 25px 0 0 5px; float: left}
+#content .bus .busImg{margin-left: 80px}
+
+#content .bus .busImg li{display: inline-block;overflow:hidden; text-overflow:clip;}
+#content .busImg .swiper-wrapper img{}
+
+
+
+
+
+
+
+
+
+
+

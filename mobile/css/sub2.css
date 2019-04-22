@@ -1,0 +1,51 @@
+/*main공통*/
+
+#wrap{background: #fff}
+.main{position: relative}
+.main img{width: 100%;height: 42px}
+.main .mainP{position: absolute;left: 50%;top: -1px;margin-left: -87px}
+.main .mainP h3{font-family: 'Gothic A1';color: #fff;font-size: 30px;font-weight: bold;margin-bottom: 5px}
+
+.titleArea .subTitle{text-align: center;padding:30px 0 20px 0}
+.titleArea .subTitle h2{font-family: 'lato';font-size: 20px;font-weight: bold;margin-bottom:15px}
+.titleArea .subTitle h2 span{color: #fd9d1e}
+.titleArea .subTitle img{width: 25px;height: 2px}
+
+/*content 영역*/
+.contentArea .tabs{font-size: 14px;font-family: 'lato';border-top:1px solid #ccc;border-bottom:1px solid #ccc;;text-align: center;padding: 10px 0 }
+.contentArea .tabs a{width: 25%;padding: 10px 10px }
+
+.contentArea .page1 {}
+.contentArea .page1 img{width: 100%;margin: 35px 0 30px 0}
+.contentArea .page1 dl{line-height: 1.8em;;width: 90%;margin:0 5%}
+.contentArea .page1 dt{font-size: 18px;font-family: 'Gothic A1';font-weight: bold;margin-bottom: 25px}
+.contentArea .page1 dt span{color: #0f69b5}
+.contentArea .page1 dd{margin-top: 15px;color: #999}
+.contentArea .page1 dd:last-child{margin-bottom: 50px}
+
+.contentArea .page2 {}
+.contentArea .page2 img{width: 100%;margin: 35px 0 30px 0}
+.contentArea .page2 dl{line-height: 1.8em;;width: 90%;margin:0 5%}
+.contentArea .page2 dt{font-size: 18px;font-family: 'Gothic A1';font-weight: bold;margin-bottom: 25px}
+.contentArea .page2 dt span{color: #0f69b5}
+.contentArea .page2 dd{margin-top: 15px;color: #999}
+.contentArea .page2 dd:last-child{margin-bottom: 50px}
+
+.contentArea .page3 {}
+.contentArea .page3 img{width: 100%;margin: 35px 0 30px 0}
+.contentArea .page3 dl{line-height: 1.8em;;width: 90%;margin:0 5%}
+.contentArea .page3 dt{font-size: 18px;font-family: 'Gothic A1';font-weight: bold;margin-bottom: 25px}
+.contentArea .page3 dt span{color: #0f69b5}
+.contentArea .page3 dd{margin-top: 15px;color: #999}
+.contentArea .page3 dd:last-child{margin-bottom: 50px}
+
+.contentArea .page4 {}
+.contentArea .page4 img{width: 100%;margin: 35px 0 30px 0}
+.contentArea .page4 dl{line-height: 1.8em;;width: 90%;margin:0 5%}
+.contentArea .page4 dt{font-size: 18px;font-family: 'Gothic A1';font-weight: bold;margin-bottom: 25px}
+.contentArea .page4 dt span{color: #0f69b5}
+.contentArea .page4 dd{margin-top: 15px;color: #999}
+.contentArea .page4 dd:last-child{margin-bottom: 50px}
+
+
+a.active { color: #fd9d1e; font-weight: bold ;}

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<title>STX조선해양</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/idangerous.swiper.css">
+<link rel="stylesheet" href="css/appstore.css">
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/notice.js"></script>
+<script src="js/idangerous.swiper-2.0.min.js"></script>
+<script src="js/idangerous.swiper.3dflow-2.0.js"></script>
+<script src="js/appstore.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+  <script src="js/nav.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+  </script>
+
+
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<!--   head include-->
+       <?php include "header.html" ?>
+        
+        <div class="main">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/main3_640.png" alt="#">
+                    </li>
+                    <li>
+                        <img src="images/main2_640.png" alt="#">
+                    </li>
+                    <li>
+                        <img src="images/main_640.png" alt="#">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <div class="about">
+                <h3>ABOUT STX조선해양</h3>
+                <ul>
+                    <li><a href="sub1_1.html"><img src="images/about1_640.png" alt="#"><span class="txt">회사소개</span></a></li>
+                    <li><a href="sub3_2.html"><img src="images/about2_640.png" alt="#"><span class="txt">윤리경영</span></a></li>
+                    <li><a href="sub3_1.html"><img src="images/about3_640.png" alt="#"><span class="txt">동반성장</span></a></li>
+                </ul>
+            </div>
+            <div class="newsWrap">
+                <div class="news">
+                    <h3>NEWS</h3>
+                    <div class="slide_box">
+                        <div class="slide">
+                            <ul>
+                                <li><a href="#">STX조선해양 현장, 안전 교육 실시... </a></li>
+                                <li><a href="#">STX조선해양 탱커 2척 수주 성공... </a></li>
+                                <li><a href="#">"친환경선박 개조사업 확대한다!"... </a></li>
+                                <li><a href="#">STX조선해양 11K 추가수주... </a></li>
+                                <li><a href="#">직원 조선해양의 날 정부포상 수상... </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bus">
+                <h3>주요사업<br>엿보기</h3>
+                <div class="busImg">
+                    <div class="swiper-container thumbs-container border-gradient">
+                        <ul class="swiper-wrapper">
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus1_640.png" alt="" ></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus2_640.png" alt=""></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus3_640.png" alt="" ></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus4_640.png" alt=""></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus1_640.png" alt=""></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus2_640.png" alt="" ></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus3_640.png" alt="" ></a></li>
+                           <li class="swiper-slide"><a href="sub2.html"><img src="images/bus4_640.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </article>
+        
+ <!--   foot include-->       
+        <?php include "footer.html" ?>
+</body>
+</html>

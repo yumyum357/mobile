@@ -1,0 +1,31 @@
+/*main공통*/
+
+#wrap{background: #fff}
+.main{position: relative}
+.main img{width: 100%;height: 42px}
+.main .mainP{position: absolute;left: 50%;top: -1px;margin-left: -87px}
+.main .mainP h3{font-family: 'Gothic A1';color: #fff;font-size: 30px;font-weight: bold;margin-bottom: 5px}
+
+.titleArea .subTitle{text-align: center;padding:30px 0 20px 0}
+.titleArea .subTitle h2{font-family: 'lato';font-size: 20px;font-weight: bold;margin-bottom:15px}
+.titleArea .subTitle h2 span{color: #fd9d1e}
+.titleArea .subTitle img{width: 25px;height: 2px}
+
+/*content 영역*/
+.contentArea{}
+.contentArea p{text-align: center;margin: 30px 0}
+.contentArea p:first-child{margin: 0}
+.contentArea p:last-child{margin-bottom: 50px}
+.contentArea div{position: relative;background: url(../images/sub3/bg1.jpg)left center no-repeat;background-size: 100% 161px;width: 100%;height: 161px}
+
+.contentArea .con1{font-size: 18px;font-family: 'Gothic A1';font-style: italic;background: url(../css/);color: #fff;position: absolute;left: 50%;top: 40px;}
+.contentArea p.con1{margin-left: -150px}
+.contentArea p.con1 span.txt{color: #fff;line-height: 1.3em;padding-top: 10px}
+.contentArea .con{font-size: 18px;font-family: 'Gothic A1' ;}
+.contentArea .con:last-child{color: #333}
+.contentArea .txt{font-size: 14px;font-style: normal;line-height: 2em ;color: #666}
+.contentArea .con3:before{background: url(../images/sub3/bg2.jpg)left center no-repeat;content: '';display: block;width: 100%;height:151px;background-size: 100% 151px;margin-bottom: 30px }
+
+.contentArea .col{color:#0f69b5 }
+
+

@@ -1,0 +1,15 @@
+/*main공통*/
+
+#wrap{background: #fff}
+.main{position: relative}
+.main img{width: 100%;height: 42px}
+.main .mainP{position: absolute;left: 50%;top: -1px;margin-left: -57px}
+.main .mainP h3{font-family: 'Gothic A1';color: #fff;font-size: 30px;font-weight: bold;margin-bottom: 5px}
+
+.titleArea .subTitle{text-align: center;padding-top: 30px}
+.titleArea .subTitle h2{font-family: 'lato';font-size: 20px;font-weight: bold;margin-bottom:15px}
+.titleArea .subTitle h2 span{color: #fd9d1e}
+.titleArea .subTitle img{width: 25px;height: 2px}
+
+/*content 영역*/
+.contentArea dl{background: url(../images/sub1/history_640.png)left center no-repeat;display: block;content: '';background-size: 320px 706px; width: 320px;height: 706px;text-indent: -9999px;overflow: hidden;color: #fff;position: relative;left: 50%;top: 0;margin:0 0 80px -160px}
